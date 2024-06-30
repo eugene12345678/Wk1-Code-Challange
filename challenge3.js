@@ -5,11 +5,11 @@ function PAYE(taxableIncome) {
     } else if (taxableIncome <= 32333) {
         paye = 2400 + (taxableIncome - 24000) * 0.25;
     } else if (taxableIncome <= 500000) {
-        paye = 4225 + (taxableIncome - 32333) * 0.30;
+        paye = 4483.25 + (taxableIncome - 32333) * 0.30;
     } else if (taxableIncome <= 800000) {
-        paye = 134925 + (taxableIncome - 500000) * 0.325;
+        paye = 144783.35 + (taxableIncome - 500000) * 0.325;
     } else {
-        paye = 232425 + (taxableIncome - 800000) * 0.35;
+        paye = 242083.25 + (taxableIncome - 800000) * 0.35;
     }
     return paye;
 }
