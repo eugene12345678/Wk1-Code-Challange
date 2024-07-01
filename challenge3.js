@@ -1,4 +1,4 @@
-function PAYE(taxableIncome) {
+function paye(taxableIncome) {
     let paye = 0;
     if (taxableIncome <= 24000) {
         paye = taxableIncome * 0.10;
@@ -14,7 +14,7 @@ function PAYE(taxableIncome) {
     return paye;
 }
 
-function NHIF(grossSalary) {
+function nhif(grossSalary) {
     let nhif = 0;
 
     if (grossSalary <= 5999) {nhif = 150;} 
@@ -39,7 +39,7 @@ function NHIF(grossSalary) {
 
     return nhif;
 }
-function NSSF(grossSalary) {
+function nssf(grossSalary) {
     const tier1Limit = 7000;
     const tier2Limit = 36000;
 
@@ -54,17 +54,17 @@ function netSalaryCalculator() {
     const grossSalary = basicSalary + benefits;
     const taxableIncome = grossSalary;
     
-    const paye = PAYE(taxableIncome);
-    const nhif = NHIF(grossSalary);
-    const nssf = NSSF(grossSalary);
+    const paye = paye(taxableIncome);
+    const nhif = nhif(grossSalary);
+    const nssf = nssf(grossSalary);
 
     const personalRelief = 2400; // monthly
     const housingLevy = grossSalary * 0.015; // 1.5% of monthly gross salary as housing levy
     const netSalary = grossSalary - paye - nhif - nssf - housingLevy + personalRelief;
     console.log(`Gross Salary: ${grossSalary}`);
-    console.log(`PAYE: ${paye}`);
-    console.log(`NHIF: ${nhif}`);
-    console.log(`NSSF: ${nssf}`);
+    console.log(`paye: ${paye}`);
+    console.log(`nhif: ${nhif}`);
+    console.log(`nssf: ${nssf}`);
     console.log(`Housing Levy: ${housingLevy}`);
     console.log(`Net Salary: ${netSalary}`);
 }
