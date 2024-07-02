@@ -79,3 +79,6 @@ parseInt(): Parses a string and returns an integer.
 parseFloat(): Parses a string and returns a floating-point number.
 prompt(): Displays a dialog box that prompts the user for input.
 Math.min(), Math.max(), Math.floor(): Mathematical functions for calculations.
+
+AUTHOR 
+Eugene Mathenge
