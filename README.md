@@ -49,12 +49,13 @@ Logs an error message for invalid inputs and prompts the user to enter a valid s
 ### Challenge 3: Net Salary Calculator
 #### Description
 The netSalaryCalculator function calculates an individual's net salary based on the following components:
-Basic salary
-Benefits
-PAYE (Tax)
-NHIF deductions
-NSSF deductions
-Housing levy
+. Basic salary
+. Benefits
+. PAYE (Tax)
+. NHIF deductions
+. NSSF deductions
+. Housing levy
+
 #### Functionality
 Open the challenge3.js file in a code editor.
 Run the program using Node.js.
@@ -68,9 +69,9 @@ NSSF: Contributions divided into Tier I and Tier II based on gross salary.
 Housing Levy: 1.5% of gross salary.
 #### Checking for Errors
 The program checks for and handles the following errors:
-The user enters a non-numeric value for the salary or benefits.
-The user enters a negative value for the salary or benefits.
-Logs an error message for invalid inputs and prompts the user to enter valid numeric values for salary and benefits.
+. The user enters a non-numeric value for the salary or benefits.
+. The user enters a negative value for the salary or benefits.
+. Logs an error message for invalid inputs and prompts the user to enter valid numeric values for salary and benefits.
 #### Resources
 1. PAYE Tax Rates
 2. KRA PAYE Calculator
