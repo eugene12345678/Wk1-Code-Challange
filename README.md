@@ -81,5 +81,5 @@ The netSalaryCalculator function calculates an individual's net salary based on 
 - prompt(): Displays a dialog box that prompts the user for input.
 - Math.min(), Math.max(), Math.floor(): Mathematical functions for calculations.
 
--AUTHOR 
--Eugene Mathenge
+- AUTHOR 
+- Eugene Mathenge
