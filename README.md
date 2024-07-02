@@ -15,6 +15,7 @@
 
 ## System requiments
 
+- Operating System (Windows 10+, Linux, or MacOS)
 - Node 18+
 - A broswer capable of running JavaScript eg chrome, firefox, etc
 - RAM >= 4GB
