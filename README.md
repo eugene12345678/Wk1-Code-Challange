@@ -72,8 +72,8 @@ The user enters a non-numeric value for the salary or benefits.
 The user enters a negative value for the salary or benefits.
 Logs an error message for invalid inputs and prompts the user to enter valid numeric values for salary and benefits.
 #### Resources
-PAYE Tax Rates
-KRA PAYE Calculator
+1. PAYE Tax Rates
+2. KRA PAYE Calculator
 #### Functions Used
 parseInt(): Parses a string and returns an integer.
 parseFloat(): Parses a string and returns a floating-point number.
