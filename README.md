@@ -1,9 +1,30 @@
-# Code Challenges README
-- This README provides detailed instructions and descriptions for three programming challenges: Student Grade Generator, Speed Detector, and Net Salary Calculator.
+# Wk1 Code Challenge - Toy problems 
+## Prerequisites: 
+
+1. Create a repository on your GitHub account. 
+
+   **_NB: One folder, with 3-4 files for each solution. Please note that a single file should only hold one solution._**
+
+2. Use JavaScript to wire down the solution.
+
+3. Push the solution to the above repository once done.
+
+4. Submit the repository link for grading.
+
+5. Ensure your repository has a well written README.
+
+## System requiments
+
+- Node 18+
+- A broswer capable of running JavaScript eg chrome, firefox, etc
+- RAM >= 4GB
+- Disk Space >= 1GB
+- Code editors: VS code, Sublime, Vim, Brackets, JS Bin etc
+
 
 ## Installation and Running the Code
 - To run these challenges, you need to have Node.js installed on your machine. If you haven't installed Node.js yet, you can download it from nodejs.org.
-- For installation, you need to clone he repository from GitHub using the command git clone git@github.com:eugene12345678/Wk1-Code-Challenge.git. Enter the link fork the repository, find the ssh link then open the cloned repository in your code editor.
+- For installation, you need to clone he repository from GitHub using the command `git clone git@github.com:eugene12345678/Wk1-Code-Challenge.git`. Enter the link fork the repository, find the ssh link then open the cloned repository in your code editor.
 
 ### Challenge 1: Student Grade Generator
 #### Description
